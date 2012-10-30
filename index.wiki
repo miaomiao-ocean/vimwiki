@@ -1,0 +1,141 @@
+= 这是我第一个wiki =
+*bold text*
+
+_italic text_
+
+~~strikeout text~~
+
+`code (no syntax) text`
+
+super^script^
+
+sub,,script,,
+
+[[this is a link]]
+
+[[this is a link source|Descript of the link]]
+
+[[/home/vimwiki/|home directory]]
+
+http://code.google.com/p/vimwiki
+
+mailto:habamax@gmail.com
+
+ftp://vim.org
+
+http://daringfireball.net/projects/markdown/syntax#link.
+
+[looks like this](http://code.google.com/p/vimwiki)
+
+
+= headr level 1 =
+
+== header level 2 ==
+
+=== header level 3 ===
+
+==== header level 4 ====
+
+ == Centered Header L1 ==
+
+this is first paragraph
+with two lines.
+
+This is a second paragraph with
+tow lines.
+
+* list item 1
+* list item 2
+ * list sub 1
+ * list sub 2
+ * more ...
+  * and more ..
+  * ...
+ * list sub 3
+
+- list 1
+- list 2
+
+- list 1
+- list 2
+ * list sub 1
+ * list sub 2
+
+# num list 1
+# num list 2
+ # num list sub 1
+ # num list sub 2
+
+* list 1
+  list item 1
+  list item 1 
+* list item 2
+
+Definition lists: 
+Term 1:: Definition 1
+Term 2::
+:: Definition 2
+:: Definition 3
+
+| Year | Temp(low) | Temp(high) |
+|------|-----------|------------|
+| 1900 | -10       | 24         |
+| 1920 | -15       | 30         |
+
+| a  | b  | c | d |
+| \/ | e  | > | f |
+| \/ | \/ | > | g |
+| h  | >  | > | > |
+
+{{{
+    typer ! 
+ Ub
+    what 
+}}}
+
+{{{ class="brush: c++"
+    int a=1;
+    int b=2;  
+}}}
+
+$ \sum_i a_i^2 = 1 $
+
+{{$
+\sum_i a_i^2
+=
+1
+}}$
+
+
+{{$%align%
+ \sum_i a_i^2 &= 1 + 1 \\
+ &= 2.
+}}$
+
+%% this text would not be in HTML
+
+----
+
+[[wiki4: This is a link]]
+
+[[diary:2012-03-05]]
+
+{{local:../../images/vimwiki_logo.png}}
+
+{{http://vimwiki.googlecode.com/hg/images/vimwiki_logo.png}}
+
+{{http://vimwiki.googlecode.com/hg/images/vimwiki_logo.png|cool stuff|style="width:150px; height: 120px;"}}
+
+{{http://vimwiki.googlecode.com/hg/images/vimwiki_logo.png||class="center flow blabla"}}
+
+[[http://someaddr.com/bigpicture.jpg|{{http://someaddr.com/thumbnail.jpg}}]]
+
+= My current task =
+ * [ ]  do stuff 1
+   * [ ] do sub stuff 1.1
+ * [ ]  do stuff 2
+
+%toc Table of Contents
+
+%title Title of the page
+
